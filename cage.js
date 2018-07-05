@@ -1,1 +1,1 @@
-[].slice.call(document.getElementsByTagName("img")).forEach(e=>e.src="https://jwcorle.github.io/caging/"+Math.floor(Math.random()*11)+".jpg")
+setInterval(()=>[].slice.call(document.getElementsByTagName("img")).forEach(e=>e.src="https://jwcorle.github.io/caging/"+Math.floor(Math.random()*11)+".jpg"),500)
